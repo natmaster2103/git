@@ -1,0 +1,38 @@
+<!-- partial:partials/_main-toolbar.html -->
+<div class="main-toolbar-container flex-column flex-md-row">
+    <div class="main-toolbar btn-toolbar dxbs-toolbar" id="MainToolbar">
+        <div class="btn-group">
+            <button class="btn btn-secondary" type="button" title="New employee" data-bs-toggle="modal" data-bs-target="#modal_NewEmployee"><span class="image fa fa-plus d-md-none mr-0"></span><span class="d-none d-md-inline text">New</span></button>
+            <button class="btn btn-secondary" type="button" title="Delete employee"><span class="image fa fa-trash-alt d-md-none mr-0"></span><span class="d-none d-md-inline text">Delete</span></button>
+        </div>
+        <div class="btn-group ">
+            <div class="btn-group " data-bs-toggle="toolbar-dropdown" aria-expanded="false">
+                <button class="btn btn-secondary " type="button"   title="Print report"><span class="image fa fa-print"></span></button>
+                <button class="btn btn-secondary dropdown-toggle" type="button" id="" data-bs-toggle="dropdown" aria-expanded="false"></button>
+                    <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                        <li><a class="dropdown-item" href="#">Directory Report</a></li>
+                        <li><a class="dropdown-item" href="#">List Report</a></li>
+                        <li><a class="dropdown-item" href="#">Detail Report</a></li>
+                        <li><a class="dropdown-item" href="#">Task Report</a></li>
+                    </ul>
+            </div>
+        </div>
+        <div class="btn-group">
+            <button class="btn btn-secondary" type="button" title="Plan Meeting"><span class="image fa fa-comments d-md-none mr-0"></span><span class="d-none d-md-inline text">Meeting</span></button>
+            <button class="btn btn-secondary" data-bs-toggle="modal" data-bs-target="#modal_TaskEdit" type="button" title="New task"><span class="image fa fa-tasks d-md-none mr-0"></span><span class="d-none d-md-inline text">Task</span></button>
+            <button class="btn btn-secondary " type="button" title="GridView mode"><span class="image fa fa-table"></span></button>
+            <button class="btn btn-secondary bg-primary text-white" type="button" title="CardsView mode"><span class="image fa fa-th-large"></span></button>
+        </div>
+    
+        <!-- partial -->
+    </div><!-- main-toolbar -->
+    <div class="dxbs-button-edit search-box mt-2 mt-md-0 flex-grow-1 flex-md-grow-0" id="SearchBox">
+        <div class="input-group">
+            <div><input id="SearchBox_I" class="form-control" type="text" name="" value="Type to Search..."><span></span></div>
+            <div class="input-group-append">
+                <button id="SearchBox_B0" class="dxbs-edit-btn btn btn-secondary" type="button"><span class="fa fa-search"></span></button>
+            </div>
+        </div>
+    </div>
+   
+</div><!-- main-toolbar-container -->
