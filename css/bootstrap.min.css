@@ -29,7 +29,7 @@
      --white: #fff;
      --gray: #666;
      --gray-dark: #222;
-     --primary: #1DA455;
+     --primary: #2196F3;
      --secondary: #fff;
      --success: #4CAF50;
      --info: #9C27B0;
@@ -2861,7 +2861,7 @@
  
  .btn-primary {
      color: #fff;
-     background-color: #29ae98;
+     background-color: #2196F3;
      border-color: #2196F3
  }
  
